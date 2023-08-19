@@ -23,8 +23,9 @@ Updates log:
 
 Update 1.0 (19/08/2023): Added the HTML and CSS code's root.
 Update 1.5 (19/08/2023): Added header's CSS styles.
+Update 2.0 (19/08/2023): Finished CSS and JS codes.
 
-Last update: 1.5v 19/08/2023.
+Last update: 2.0v 19/08/2023.
 ## 🛠 Abilities used
 HTML (Hypertext Markup Lenguage)
 
@@ -33,7 +34,7 @@ CSS (Cascate Style Sheets)
 
 In this project i grow up my abilities about HTML, CSS and JS.
 
-I don't have any problem with this challenge yet. (14/08/2023).
+I don't have any problem with this challenge.
 
 
 

@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to right, #0c0448, #1d0e8f);
+    color: #fff;
+}
+
+.navigation-arrow {
+    width: 1rem;
+}
+
+.navigation-arrow {
+    position: absolute;
+    margin-top: .2rem;
+}

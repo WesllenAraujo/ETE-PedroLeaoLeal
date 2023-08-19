@@ -1,7 +1,7 @@
 
 # Votação ETE Pedro Leão Leal - 2023
 
-I made this project for an event in my school, <a href="https://www.instagram.com/etepedroleaoleal/" target="_blank">ETE - Pedro Leão Leal</a>. Users will vote for the student who made the best video about social inclusion and respect for differences
+I made this project for an event in my school, <a href="https://www.instagram.com/etepedroleaoleal/">ETE - Pedro Leão Leal</a>. Users will vote for the student who made the best video about social inclusion and respect for differences
 ## Autores
 
 - [Wesllen do Carmo Araújo - Developer](https://www.github.com/WesllenAraujo)

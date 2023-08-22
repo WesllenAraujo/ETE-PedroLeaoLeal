@@ -86,20 +86,6 @@ body {
     position: relative;
     cursor: pointer;
 }
-.menu-item:after {
-    content: " ";
-    width: 0%;
-    height: 4px;
-    background-color: #9e92ee;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: 0.5s ease-in-out;
-    border-radius: 3px;
-}
-.menu-item:hover:after {
-    width: 100%;
-}
 #principal-content {
     padding: 2% 2% 1% 2%;
     display: flex;

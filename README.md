@@ -29,7 +29,9 @@ Update 2.0 (19/08/2023): Finished CSS and JS codes.
 
 Update 2.5 (19/08/2023): Finished Responsive codes.
 
-Last update: 2.5v 19/08/2023.
+Updaate 3.0 (23/08/2023): Added more students.
+
+Last update: 3.0v 23/08/2023.
 ## 🛠 Abilities used
 HTML (Hypertext Markup Lenguage)
 

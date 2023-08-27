@@ -11,6 +11,9 @@
     .ETE-school-image {
         width: 100%;
     }
+    .ETE-school-image {
+        width: 90%;
+    }
     .image2 {
         width: 30%;
     }
@@ -89,6 +92,9 @@
     }
 }
 @media (max-width:365px) {
+    #ETE {
+        font-size: 1.4rem;
+    }
     #principal-content {
         padding: 0;
     }

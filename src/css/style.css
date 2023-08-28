@@ -177,3 +177,7 @@ body {
 #result-desc {
     font-size: 1.5rem;
 }
+.form-result {
+    margin-top: 5%;
+    width: 100%;
+}

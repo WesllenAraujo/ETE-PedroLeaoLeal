@@ -35,7 +35,9 @@ Update 3.5 (24/08/2023): Addded the last students.
 
 Update 4.0 (27/08/2023): Closed voting.
 
-Last update: 4.0v 24/08/2023.
+Update 4.5 (28/08/2023): Added the results image.
+
+Last update: 4.5v 28/08/2023.
 ## 🛠 Abilities used
 HTML (Hypertext Markup Lenguage)
 

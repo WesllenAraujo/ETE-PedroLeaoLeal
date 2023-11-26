@@ -37,7 +37,9 @@ Update 4.0 (27/08/2023): Closed voting.
 
 Update 4.5 (28/08/2023): Added the results image.
 
-Last update: 4.5v 28/08/2023.
+Update 5.0 (25/11/2023): Solved a courses' button lagging problem.
+
+Last update: 5.0v 25/11/2023.
 ## 🛠 Abilities used
 HTML (Hypertext Markup Lenguage)
 

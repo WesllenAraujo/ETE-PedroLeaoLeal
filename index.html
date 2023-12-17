@@ -3,41 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Votação - ETE Pedro Leão Leal</title>
+    <title> Home - ETE - Pedro Leão Leal</title>
     <link rel="icon" type="img/png" href="./src/images/ETE logo.png">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
 <body>
-    <main id="content">
-        <header id="header">
-            <section id="header-text">
-                <img src="./src/images/ETE logo.png" alt="ETE logo" id="ETE-logo">
-                <h1 id="ETE">ETE - Pedro Leão Leal</h1>
+    <main id="container">
+        <header>
+            <section id="header-main-content">
+                <a href="./index.html" class="anchor-title">
+                    <img src="./src/images/ETE logo.png" alt='Logo da ETE - Pedro Leão Leal: Um círculo branco com bordas gradientes laranja e vermelho com faixas no centro de cor laranja, verde e vermelho respectivamente. E no centro escrito "ETE Pedro Leão Leal" de cor azul.' id="ETE-logo">
+                    <h1 id="ETE-header-title">ETE - Pedro Leão Leal</h1>
+                </a>
             </section>
             <nav id="navigation">
                 <ul id="menu">
-                    <li class="menu-item"><a href="index.html" class="item-menu-anchor">Início</a></li>
-                    <li class="menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=polo&id=79" class="item-menu-anchor" target="_blank">Sobre nós</a></li>
-                    <li class="menu-item"><button id="coursesButton">Cursos <img src="./src/images/./down-arrow.png" class="navigation-arrow arrow-down" id="arrow"></button></li>
-                    <li class="menu-item"><a href="#contact" class="item-menu-anchor">Contato</a></li>
+                    <li class="menu-item"><button id="coursesButton">Instituição <img src="./src/images/down-arrow.png" class="navigation-arrow" alt="Imagem de uma flecha virada para baixo, e quando clicada ela vira para cima"></button></li>
+                    <li class="menu-item"><button id="coursesButton">Cursos <img src="./src/images/./down-arrow.png" class="navigation-arrow arrow-down"></button></li>
+                    <li class="menu-item"><button id="coursesButton">Conquistas <img src="./src/images/./down-arrow.png" class="navigation-arrow arrow-down"></button></li>
                 </ul>
+                <div class="contact-menu">
+                    <a href="telto:558738842928" class="contact-menu-anchor"><img src="./src/images/phone-icon.svg" alt="Imagem de um telefone da cor preta" class="contact-menu-image">Telefone</a>
+                    <a href="telto:558738842928" class="contact-menu-anchor"><img src="./src/images/mail-icon.svg" alt="Imagem de uma carta da cor preta" class="contact-menu-image">Email</a>
+                </div>
             </nav>
-            <ul id="courses">
-                <ul id="coursesList" class="fade">
+            <ul id="courses" class="subMenu">
+                <ul id="coursesList">
                     <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=5" target="_blank">Técnico em Administração (EaD - Concomitante e/ou Subsequente)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=1" target="_blank">Técnico em Biblioteconomia (EaD - Concomitante e/ou Subsequente)</a></li>
                     <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=6" target="_blank">Técnico em Desenvolvimento de Sistemas (EaD - Concomitante e/ou Subsequente)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=22" target="_blank">Técnico em Design de Interiores (EaD - Concomitante e/ou Subsequente)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=201" target="_blank">Técnico em Design Gráfico (EaD - Concomitante e/ou Subsequente)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=3" target="_blank">Técnico em Lógistica (EaD - Concomitante e/ou Subsequente)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=29" target="_blank">Técnico em Multimeios Didáticos (EaD - Concomitante e/ou Subsequente)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=21" target="_blank">Técnico em Multimídia (EaD - Concomitante e/ou Subsequente)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=9" target="_blank">Técnico em Recursos Humanos (EaD - Concomitante e/ou Subsequente)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=30" target="_blank">Técnico em Secretária Escolar (EaD - Concomitante e/ou Subsequente)</a></li>
                     <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=7" target="_blank">Técnico em Segurança no Trabalho (EaD - Concomitante e/ou Subsequente)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=114" target="_blank">Técnico em Tradução e Interpretação em LIBRAS (EaD - Concomitante e/ou Subsequente)</a>/li>
                     <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=5" target="_blank">Técnico em Administração (Presencial - Integrado)</a></li>
                     <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=5" target="_blank">Técnico em Administração (Presencial - Subsequente)</a></li>
                     <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=110" target="_blank">Técnico em Enfermagem (Presencial - Subsequente)</a></li>
@@ -45,34 +41,45 @@
                 </ul>
             </ul>
         </header>
-        <section id="principal-content">
-            <section id="left-content">
-                <h1 id="principal-content-title">Votação</h1>
-                <h2 id="principal-content-subtitle">Colabore conosco!</h2>
-                <h4 id="principal-content-description">O aluno que fez o melhor vídeo abordando o tema inclusão social e respeito às diferenças receberá um prêmio.</h3>
-                <img src="./src/images/ETE-school2.png" alt="ETE school image" class="ETE-school-image">
-            </section>
-            <section id="right-content">
-                <img src="./src/images/result.png" alt="Result image" class="form-result">
-            </section>
-        </section>
-        <section id="contact">
-            <section id="contact-methods">
-                <h2 id="contact-title">Contato</h2>
-                    <ul id="contact-menu">
-                        <li class="contact-menu-item"><i class="fa-solid fa-phone" style="color: #ffffff;"></i><a href="telto:558738842928" class="contact-menu-item-anchor">+55 87 3884-2928</a></li>
-                        <li class="contact-menu-item"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i><a href="https://www.instagram.com/etepedroleaoleal/" target="_blank" class="contact-menu-item-anchor">ETE - Pedro Leão Leal</a></li>
-                        <li class="contact-menu-item"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i><a href="mailto:etebelmonte@gmail.com" class="contact-menu-item-anchor">etebelmonte@gmail.com</a></li>
-                    </ul>
-            </section>
-            <img src="./src/images/ETE-school1.png" alt="ETE school image" class="ETE-school-image image2">
-        </section>
-        <footer id="footer">
-            <h1 id="footer-title">ETE - Pedro Leão Leal</h1>
-            <h4 id="developer"><a href="https://github.com/WesllenAraujo" id="developer-anchor">&copy;Wesllen do Carmo Araújo</a> - 1° TEC A </h4>
-        </footer>
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <div class="slide-content">
+                                <img src="./src/images/slide-images/pernambuco-chemistry-olympiad.png" alt="Aluno da ETE - Pedro Leão Leal sendo premiado com uma medalha de ouro na Olimpiada de Química de Pernambuco." class="slide-image">
+                            </div>
+                        </div>
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                                <img src="./src/images/slide-images/successful-practices-fair.png" alt="Alunos, professores, coordenadora e diretor da ETE - Pedro Leão Leal junto com duas coordenadoras da II Feira de Ciências Exitosas - Ciência da Natureza e Matemática 2023." class="slide-image">
+                            </div>
+                        </div>
+                        <div class="slide slide_3">
+                            <div class="slide-content">
+                                <img src="./src/images/slide-images/miss-ete-contest.png" alt="Alunos com maiores votos no Concurso de Miss e Mister ETE 2023." class="slide-image">
+                            </div>
+                        </div>
+                        <div class="slide slide_4">
+                            <div class="slide-content">
+                                <img src="./src/images/slide-images/ete-parade-semptember-7th.png" alt="Alunos da ETE - Pedro Leão Leal desfilando no dia 7 de Setembro." class="slide-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="bullets">
+                <label for="slide1" ></label>
+                <label for="slide2" ></label>
+                <label for="slide3" ></label>
+                <label for="slide4" ></label>
+            </div>
+        </div>
     </main>
-    <script src="https://kit.fontawesome.com/9765ea33b1.js" crossorigin="anonymous"></script>
     <script src="./src/js/main.js"></script>
 </body>
 </html>

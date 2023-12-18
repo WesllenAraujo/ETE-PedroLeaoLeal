@@ -1,5 +1,5 @@
 
-# Votação ETE Pedro Leão Leal - 2023
+# ETE Pedro Leão Leal - 2023
 
 This site is a freelancer work to <a href="https://www.instagram.com/etepedroleaoleal/">ETE - Pedro Leão Leal</a> maded by <a href="https://www.linkedin.com/in/wesllen-do-carmo-ara%C3%BAjo-0b1115276/">Wesllen Araújo</a>.
 

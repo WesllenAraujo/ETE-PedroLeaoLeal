@@ -10,8 +10,11 @@
     <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
 <body>
+    <div class="up-button">
+        <a href="#header"><img src="./src/images/up-button-arrow.png" alt="Imagem de uma seta da cor lilás apontando para cima" class="up-button-arrow"></a>
+    </div>
     <main id="container">
-        <header>
+        <header id="header">
             <section id="header-main-content">
                 <a href="./index.html" class="anchor-title">
                     <img src="./src/images/ETE logo.png" alt='Logo da ETE - Pedro Leão Leal: Um círculo branco com bordas gradientes laranja e vermelho com faixas no centro de cor laranja, verde e vermelho respectivamente. E no centro escrito "ETE Pedro Leão Leal" de cor azul.' id="ETE-logo">
@@ -20,26 +23,46 @@
             </section>
             <nav id="navigation">
                 <ul id="menu">
-                    <li class="menu-item"><button id="coursesButton">Instituição <img src="./src/images/down-arrow.png" class="navigation-arrow" alt="Imagem de uma flecha virada para baixo, e quando clicada ela vira para cima"></button></li>
-                    <li class="menu-item"><button id="coursesButton">Acadêmico <img src="./src/images/./down-arrow.png" class="navigation-arrow arrow-down"></button></li>
-                    <li class="menu-item"><button id="coursesButton">Cursos <img src="./src/images/./down-arrow.png" class="navigation-arrow arrow-down"></button></li>
+                    <li class="menu-item"><button class="mainButton">Instituição <img src="./src/images/down-arrow.png" class="navigation-arrow" alt="Imagem de uma flecha virada para baixo, e quando clicada ela vira para cima"></button></li>
+                    <li class="menu-item"><button class="mainButton">Cursos <img src="./src/images/./down-arrow.png" class="navigation-arrow arrow-down"></button></li>
+                    <li class="menu-item"><button class="mainButton">Acadêmico <img src="./src/images/./down-arrow.png" class="navigation-arrow arrow-down"></button></li>
                 </ul>
                 <div class="contact-menu">
-                    <a href="telto:558738842928" class="contact-menu-anchor"><img src="./src/images/phone-icon.svg" alt="Imagem de um telefone da cor preta" class="contact-menu-image">Telefone</a>
-                    <a href="telto:558738842928" class="contact-menu-anchor"><img src="./src/images/mail-icon.svg" alt="Imagem de uma carta da cor preta" class="contact-menu-image">Email</a>
+                    <a href="telto:558738842928" class="contact-menu-anchor"><img src="./src/images/phone-icon.png" alt="Imagem de um telefone da cor preta" class="contact-menu-image">Telefone</a>
+                    <a href="telto:558738842928" class="contact-menu-anchor"><img src="./src/images/mail-icon.png" alt="Imagem de uma carta da cor preta" class="contact-menu-image">Email</a>
                 </div>
             </nav>
-            <ul id="courses" class="subMenu">
-                <ul id="coursesList">
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=5" target="_blank">Técnico em Administração (EaD - Concomitante e/ou Subsequente)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=6" target="_blank">Técnico em Desenvolvimento de Sistemas (EaD - Concomitante e/ou Subsequente)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=7" target="_blank">Técnico em Segurança no Trabalho (EaD - Concomitante e/ou Subsequente)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=5" target="_blank">Técnico em Administração (Presencial - Integrado)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=5" target="_blank">Técnico em Administração (Presencial - Subsequente)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=110" target="_blank">Técnico em Enfermagem (Presencial - Subsequente)</a></li>
-                    <li class="courses-menu-item"><a href="https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=curso&id=15" target="_blank">Técnico em Redes de Computadores (Presencial - Integrado)</a></li>
-                </ul>
-            </ul>
+            <nav class="institutionMenu subMenu">
+                <div class="subMenuRowLine">
+                    <a href="#" class="subMenu-anchor">Eventos</a>
+                    <a href="#" class="subMenu-anchor">Conquistas</a>
+                </div>
+                <div class="subMenuRowLine">
+                    <a href="#" class="subMenu-anchor">Projetos</a>
+                    <a href="#" class="subMenu-anchor">Docentes</a>
+                </div>
+                <div class="subMenuRowLine">
+                    <a href="#" class="subMenu-anchor">Formandos</a>
+                    <a href="#" class="subMenu-anchor">Laboratórios</a>
+                </div>
+            </nav>
+            <nav class="coursesMenu subMenu">
+                <div class="subMenuRowLine">
+                    <a href="#" class="subMenu-anchor">Técnico em Administração - Ensino Médio(Integral - Presencial)</a>
+                    <a href="#" class="subMenu-anchor">Técnico em Redes de Computadores - Ensino Médio(Integral - Presencial)</a>
+                    <a href="#" class="subMenu-anchor">Técnico em Segurança no Trabalho - Subsequente(Presencial)</a>
+                </div>
+                <div class="subMenuRowLine">
+                    <a href="#" class="subMenu-anchor">Técnico em Administração - Subsequente(Presencial)</a>
+                    <a href="#" class="subMenu-anchor">Técnico em Enfermagem - Subsequente(Presencial)</a>
+                    <a href="#" class="subMenu-anchor">Técnico em Desenvolvimento de Sistemaas(EaD)</a>
+                </div>
+            </nav>
+            <nav class="academicMenu subMenu">
+                <a href="#" class="subMenu-anchor">Ingresso na instituição</a>
+                <a href="#" class="subMenu-anchor">Instituição no SEIP</a>
+                <a href="#" class="subMenu-anchor">Boletim escolar online - SIEPE</a>
+            </nav>
         </header>
         <div id="slider">
             <input type="radio" name="slider" id="slide1" checked>
@@ -79,6 +102,44 @@
                 <label for="slide4"></label>
             </div>
         </div>
+        <div class="left-brown-bar"></div>
+        <div class="left-blue-bar"></div>
+        <section class="ETE-description">
+            <div class="first-row row">
+                <img src="./src/images/etebelmonte.jpg" alt="Imagem da entrada da ETE - Pedro Leão Leal: Uma parede comprida com a logo da ETE, e em frente a entrada." class="description-image">
+                <p class="description-text">ETE - Pedo Leão Leal é única escola técnica estadual  localizada no município de São José do Belmonte, PE. Onde possui vários cursos, tanto no ensino médio integral tanto subsequentes para pessoas qem já finalizou o ensino médio.</p>
+            </div>
+            <div class="second-row row">
+                <img src="./src/images/etebelmonte2.JPG" alt="Imagem do pátio da ETE - Pedro Leão Leal: no térreo há um banco em formato qudrático e uma planta no meio, em frente há uma escada que leva para o primeiro andar para o corredor com várias salas de aulas." class="description-image">
+                <p class="description-text">Há vários laboratórios na instuição para auxiliar os professores. Dentre eles podemos citar: laboratório de informática, laboratório de linguagens, laboratório de química e o laboratório de matemática.</p>
+            </div>
+        </section>
+        <div class="right-bars-content">
+            <div class="right-brown-bar"></div>
+            <div class="right-blue-bar"></div>
+        </div>
+        <section class="ETE-other-images">
+            <div class="first-row-images images-row">
+                <img src="./src/images/etebelmonte3.JPG" alt="Foto da ETE durante a noite: A parede com a logo da escola está iluminada pelas lâmpadas leds no chão, e a entrada está bem iluminada junto com várias pessoas." class="ETE-photos">
+                <img src="./src/images/etebelmonte4.jpg" alt="Foto tirada do refeitório da ETE apontando para o pátio da escola." class="ETE-photos">
+                <img src="./src/images/etebelmonte5.jpg" alt="Foto do estacionamento da ETE junto com um pequeno campo de grama." class="ETE-photos">
+            </div>
+            <div class="second-row-images images-row">
+                <img src="./src/images/etebelmonte6.jpg" alt="Foto do pátio da ETE tirada do primeiro andar: com bancos, plantas e laboratórios." class="ETE-photos">
+                <img src="./src/images/etebelmonte7.png" alt="Foto dos protagonistas da ETE na acolhida para os novos alunos em 2023." class="ETE-photos">
+                <img src="./src/images/etebelmonte8.png" alt="Foto dos alunos da ETE reunidos para o evento de lançamento de foguetes da olimpíada OBA(Olimíada Brasileira de Astronomia)." class="ETE-photos">
+            </div>
+        </section>
+        <footer>
+            <div class="main-footer-content">
+                <img src="./src/images/ETE logo.png" alt='Logo da ETE - Pedro Leão Leal: Um círculo branco com bordas gradientes laranja e vermelho com faixas no centro de cor laranja, verde e vermelho respectivamente. E no centro escrito "ETE Pedro Leão Leal" de cor azul.' class="ETE-footer-logo">
+                <h2 class="ETE-footer-title">ETE - Pedro Leão Leal</h2>
+            </div>
+            <div class="contact-footer-menu">
+                <a href="telto:558738842928" class="contact-menu-anchor"><img src="./src/images/phone-icon.png" alt="Imagem de um telefone da cor preta" class="contact-menu-image">Telefone</a>
+                <a href="telto:558738842928" class="contact-menu-anchor"><img src="./src/images/mail-icon.png" alt="Imagem de uma carta da cor preta" class="contact-menu-image">Email</a>
+            </div>
+        </footer>
     </main>
     <script src="./src/js/main.js"></script>
 </body>

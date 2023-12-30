@@ -9,12 +9,13 @@
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     overflow-x: hidden;
+    background-color: #9EB3C2;
 }
 header {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    background: #d4dfe8;
+    background: #191D32;
     width: 100%;
     margin-bottom: 1rem;
 }
@@ -28,6 +29,8 @@ header {
     flex: 1 0 auto;
     font-size: 2rem;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
+    color: #B7C0EE;
+    padding-left: 1rem;
 }
 #ETE-logo {
     width: 15%;
@@ -39,9 +42,9 @@ header {
     width: 30%;
 }
 .navigation-arrow {
-    width: 1rem;
+    width: 1.5rem;
     position: absolute;
-    margin: .6rem;
+    margin: .3rem;
     transition: .5s;
 }
 .arrow-up {
@@ -55,15 +58,15 @@ header {
     padding: 2% 0 0 0;
     display: flex;
 }
+.arrow-up {
+    transform: rotate(180deg);
+}
 #menu {
     display: flex;
-    gap: 10%;
+    gap: 20%;
     list-style: none;
     font-size: 1.5rem;
     width: 50%
-}
-#coursesButton {
-    cursor: pointer;
 }
 #courses {
     display: none;
@@ -74,16 +77,25 @@ header {
     margin-top: 2rem;
 }
 .courses-menu-item {
-    border: 2px solid #71afd1;
     width: 22rem;
     padding: .5rem;
     margin: .5rem;
     cursor: pointer;
     transition: 1s;
+    color: #9EB3C2;
+}
+.mainButton {
+    cursor: pointer;
+    color: #9EB3C2;
+}
+.subMenu-anchor {
+    transition: .5s ease-in-out;
+}
+.subMenu-anchor:hover {
+    color: #7d8e9a;
 }
 .courses-menu-item:hover {
-    background-color: #71afd1;
-    color: #060226;
+    background-color: #b7c0ee;
 }
 .menu-item {
     position: relative;
@@ -101,56 +113,86 @@ header {
     height: 1rem;
     padding-right: .5rem;
 }
-.contact-menu-anchor:hover {
-    color: #3c1cae;
+.contact-menu-anchor {
+    color: #9eb3c2;
     transition: .5s ease-in-out;
 }
-
-
+.contact-menu-anchor:hover {
+    color: #d7deff;
+}
+.subMenu {
+    display: none;
+    width: 100%;
+    height: 7rem;
+    background-color: #191D32;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+.show {
+    display: flex;
+}
+.hide {
+    display: none;
+}
+.subMenuRowLine {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.subMenu-anchor {
+    color: #9EB3C2;
+    font-size: 1.5rem;
+}
+.coursesMenu {
+    height: 10rem;
+}
+.academicMenu {
+    height: 4rem;
+}
 #slider {
     margin: 0 auto;
     width: 1225px;
     max-width: 100%;
     text-align: center;
- }
- #slider input[type=radio] {
+}
+#slider input[type=radio] {
     display: none;
- }
- #slider label {
+}
+#slider label {
     cursor:pointer;
     text-decoration: none;
- }
- #slides {
+}
+#slides {
     padding: 10px;
     border: 3px solid #ccc;
     border-radius: 1rem;
     background: #fff;
     position: relative;
     z-index: 1;
- }
- #overflow {
+}
+#overflow {
     width: 100%;
     overflow: hidden;
- }
- #slide1:checked ~ #slides .inner {
+}
+#slide1:checked ~ #slides .inner {
     margin-left: 0;
- }
- #slide2:checked ~ #slides .inner {
+}
+#slide2:checked ~ #slides .inner {
     margin-left: -100%;
- }
- #slide3:checked ~ #slides .inner {
+}
+#slide3:checked ~ #slides .inner {
     margin-left: -200%;
- }
- #slide4:checked ~ #slides .inner {
+}
+#slide4:checked ~ #slides .inner {
     margin-left: -300%;
- }
- #slides .inner {
+}
+#slides .inner {
     transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
     width: 400%;
     line-height: 0;
     height: 290px;
- }
- #slides .slide {
+}
+#slides .slide {
     width: 25%;
     float:left;
     display: flex;
@@ -158,37 +200,147 @@ header {
     align-items: center;
     height: 165%;
     color: #fff;
- }
- .slide-image {
+}
+.slide-image {
     width: 1200px;
- }
- #slides .slide_1 {
+}
+#slides .slide_1 {
     background: #00171F;
- }
- #slides .slide_2 {
+}
+#slides .slide_2 {
     background: #003459;
- }
- #slides .slide_3 {
+}
+#slides .slide_3 {
     background: #007EA7;
- }
- #slides .slide_4 {
+}
+#slides .slide_4 {
     background: #00A8E8;
- }
- #bullets {
+}
+#bullets {
     margin: 20px 0 0;
     text-align: center;
- }
- #bullets label {
+}
+#bullets label {
     display: inline-block;
     width: 15px;
     height: 15px;
     border-radius:100%;
     background: #ccc;
     margin: 0 10px;
- }
- #slide1:checked ~ #bullets label:nth-child(1),
- #slide2:checked ~ #bullets label:nth-child(2),
- #slide3:checked ~ #bullets label:nth-child(3),
- #slide4:checked ~ #bullets label:nth-child(4) {
+}
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4) {
     background: #444;
- }
+}
+.up-button {
+    display: flex;
+    position: fixed;
+    width: 5rem;
+    height: 5rem;
+    background-color: #282F44;
+    border-radius: 50%;
+    margin-top: 35rem;
+    margin-left: 88.5rem;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease-in-out;
+}
+.up-button:hover {
+    background-color: #161a26;
+}
+.up-button-arrow {
+    width: 4rem;
+    height: 4rem;
+}
+.left-brown-bar {
+    width: 70%;
+    background: #453A49;
+    height: 1rem;
+    margin-top: 2rem;
+}
+.left-blue-bar {
+    margin: 1rem 0 2rem 0;
+    width: 50%;
+    height: 1rem;
+    background: #282F44;
+}
+.row {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.second-row {
+    flex-direction: row-reverse;
+    margin: 2rem 0 2rem 0;
+}
+.description-image {
+    width: 35rem;
+    height: 18rem;
+}
+.description-text {
+    width: 40rem;
+    font-size: 2.3rem;
+}
+.right-brown-bar {
+    width: 70%;
+    background-color: #453A49;
+    height: 1rem;
+}
+.right-bars-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.right-blue-bar {
+    margin: 1rem 0 2rem 0;
+    width: 50%;
+    background-color: #282F44;
+    height: 1rem;
+}
+.ETE-other-images {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.ETE-description-title {
+    font-size: 1.5rem;
+}
+.images-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ETE-photos {
+    width: 25rem;
+    height: 14.5rem;
+}
+footer {
+    display: flex;
+    width: 100%;
+    background: #191D32;
+    padding: 1rem;
+}
+.main-footer-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+    color: #B7C0EE
+}
+.ETE-footer-logo {
+    width: 5rem;
+}
+.ETE-footer-title {
+    font-size: 2rem;
+}
+.contact-footer-menu {
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}

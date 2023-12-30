@@ -15,7 +15,7 @@ This site is a freelancer work to <a href="https://www.instagram.com/etepedrolea
 
 ## Status
 
-Status: Finished.
+Status: In Process.
 
 Responsive: COMING SOON.
 
@@ -25,7 +25,9 @@ Updates log:
 
 Update 1.0 (17/12/2023): Added the project code's root.
 
-Last update: 1.0v 17/12/2023.
+Update 1.1 (30/12/2023): Home Page was finished.
+
+Last update: 1.1v 30/12/2023.
 ## 🛠 Abilities used
 HTML (Hypertext Markup Lenguage)
 

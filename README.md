@@ -7,7 +7,7 @@ ETE - Pedro Leão Leal é uma escola técnica estadual com cursos técnicos incl
 
 ## Status
 
-### :construction Em Construção :construction
+### 🚧 Em Construção 🚧
 
 <hr>
 

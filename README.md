@@ -3,6 +3,14 @@
 
 ETE - Pedro Leão Leal é uma escola técnica estadual com cursos técnicos incluidos no ensino médio, e cursos online ou presenciais.
 
+<hr>
+
+## Status
+
+### :construction Em Construção :construction
+
+<hr>
+
 ## Documentação de cores
 
 | Cor               | Hexadecimal                                                |
@@ -14,6 +22,7 @@ ETE - Pedro Leão Leal é uma escola técnica estadual com cursos técnicos incl
 | Cor secundária       | ![#282f44](https://via.placeholder.com/10/282f44?text=+) #00d1a0 |
 | Cor terciária       | ![#453a49](https://via.placeholder.com/10/453a49?text=+) #453a49 |
 
+<hr>
 
 ## Melhorias
 
@@ -23,6 +32,10 @@ ETE - Pedro Leão Leal é uma escola técnica estadual com cursos técnicos incl
 #### Update 1.1 (01/02/2023):
 Adicionado arquivo README.md.
 
+#### Update 1.2 (02/02/2023):
+Adicionado carousel de imagens no index.html.
+
+<hr>
 
 ## Tecnologias
   
@@ -35,6 +48,8 @@ Adicionado arquivo README.md.
   ![Figma Badge](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
   ![Git Badge](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+
+<hr>
 
 ## Autores
 

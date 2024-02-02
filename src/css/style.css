@@ -101,3 +101,98 @@ body {
 .up-button-image {
     width: 3rem;
 }
+.slide-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.slider {
+    margin: 0 auto;
+    width: 1100px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.slides {
+    width: 400%;
+    height: 500px;
+    display: flex;
+}
+.slides input {
+    display: none;
+}
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 1s ease-in-out;
+}
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.manual-navigation {
+    position: absolute;
+    width: 1100px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-button {
+    border: 3px solid #fff;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.manual-button:not(:last-child) {
+    margin-right: 40px;
+}
+.manual-button:hover {
+    background-color: #fff;
+}
+#index-slide-input1:checked ~ .first-slide {
+    margin-left: 0;
+}
+#index-slide-input2:checked ~ .first-slide {
+    margin-left: -25%;
+}
+#index-slide-input3:checked ~ .first-slide {
+    margin-left: -50%;
+}
+#index-slide-input4:checked ~ .first-slide {
+    margin-left: -75%;
+}
+.navigation-auto div {
+    border: 3px solid #191d32;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.navigation-auto {
+    position: absolute;
+    width: 1100px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+#index-slide-input1:checked ~ .navigation-auto .auto-index-button1 {
+    background-color: #fff;
+}
+#index-slide-input2:checked ~ .navigation-auto .auto-index-button2 {
+    background-color: #fff;
+}
+#index-slide-input3:checked ~ .navigation-auto .auto-index-button3 {
+    background-color: #fff;
+}
+#index-slide-input4:checked ~ .navigation-auto .auto-index-button4 {
+    background-color: #fff;
+}

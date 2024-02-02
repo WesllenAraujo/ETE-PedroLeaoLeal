@@ -4,7 +4,6 @@ let menuButtonArrow = document.querySelectorAll(".menu-arrow");
 for (let i = 0; i < secundaryMenu.length; i++) {
     secundaryMenu[i].style.display = "none";
 }
-console.log(secundaryMenu);
 //If device's width are above 700px, the device will be caracterized as a PC, else Mobile.
 if (window.innerWidth > 700) {
     primaryMenuButton.forEach((button, i) => {

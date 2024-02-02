@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - ETE Pedro Leão Leal</title>
-    <link rel="icon" type="image/png" href="./src/images/ETE logo.png">
+    <link rel="icon" type="image/png" href="./src/images/ETElogo.png">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
 
@@ -16,7 +16,7 @@
     <header id="header">
         <div class="logo-content">
             <a href="./index.html" class="anchor-title">
-                <img src="./src/images/ETE logo.png" alt="Logo da ETE Pedro Leão Leal" class="ete-anchor-image">
+                <img src="./src/images/ETElogo.png" alt="Logo da ETE Pedro Leão Leal" class="ete-anchor-image">
                 <h1>ETE - Pedro Leão Leal</h1>
             </a>
         </div>
@@ -59,6 +59,41 @@
             <a href="#" class="subMenuItem">Boletim escolar online - SIEPE</a>
         </nav>
     </header>
+    <div class="slide-content">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="index-slideRadio" id="index-slide-input1" checked>
+                <input type="radio" name="index-slideRadio" id="index-slide-input2">
+                <input type="radio" name="index-slideRadio" id="index-slide-input3">
+                <input type="radio" name="index-slideRadio" id="index-slide-input4">
+                <div class="slide first-slide">
+                    <img src="./src/images/index-slide-images/index-slide-image1.png" alt="Alunos da ETE, diretor, professora e coordenadora da Segunda Feira de Práticas Exitosas em 2023 posando para foto.">
+                </div>
+                <div class="slide">
+                    <img src="./src/images/index-slide-images/index-slide-image2.png" alt="Reunião dos pais dos primeiros anos da ETE do ano de 2024.">
+                </div>
+                <div class="slide">
+                    <img src="./src/images/index-slide-images/index-slide-image3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./src/images/index-slide-images/index-slide-image4.png" alt="">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-index-button1"></div>
+                    <div class="auto-index-button2"></div>
+                    <div class="auto-index-button3"></div>
+                    <div class="auto-index-button4"></div>
+                </div>
+            </div>
+            <div class="manual-navigation">
+                <label for="index-slide-input1" class="manual-button"></label>
+                <label for="index-slide-input2" class="manual-button"></label>
+                <label for="index-slide-input3" class="manual-button"></label>
+                <label for="index-slide-input4" class="manual-button"></label>
+            </div>
+        </div>
+    </div>
     <script src="./src/js/main.js"></script>
+    <script src="./src/js/next-slide.js"></script>
 </body>
 </html>

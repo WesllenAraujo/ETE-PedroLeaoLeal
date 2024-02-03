@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 body {
     color: #191d32;
     background-color: #9eb3c2;
+    font-family: 'Inter', arial;
 }
-#header {
+#header, footer {
     background-color: #191d32;
     color: #9eb3c2;
     padding: 1rem;
@@ -15,6 +17,7 @@ body {
     align-items: center;
     gap: 1rem;
     font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 .ete-anchor-image {
     width: 6rem;
@@ -23,7 +26,7 @@ body {
     width: 100%;
     display: flex;
     gap: 5rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 .primary-menu-button {
     display: flex;
@@ -73,7 +76,7 @@ body {
 }
 .subMenuItem {
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.5rem;
     transition: .5s ease-in-out;
 }
 .subMenuItem:hover {
@@ -86,7 +89,7 @@ body {
     position: fixed;
     display: flex;
     justify-content: flex-end;
-    margin: 40rem 0 0 87rem;
+    margin: 38rem 0 0 87rem;
 }
 .up-button {
     background-color: #191d32;
@@ -195,4 +198,59 @@ body {
 }
 #index-slide-input4:checked ~ .navigation-auto .auto-index-button4 {
     background-color: #fff;
+}
+.left-brown-bar {
+    width: 70%;
+    height: 1rem;
+    background-color: #453A49;
+    margin:  2rem 0 1rem;
+}
+.left-blue-bar {
+    width: 50%;
+    height: 1rem;
+    background-color: #282F44;
+    margin-bottom: 2rem;
+}
+.right-bars-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.ete-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ete-description-image {
+    width: 35rem;
+    height: 20rem;
+}
+.ete-description-text {
+    font-size: 2rem;
+    width: 50%;
+}
+.ete-descrption-left {
+    flex-direction: row-reverse;
+    gap: 2rem;
+}
+.ete-descrption-right {
+    gap: 2rem;
+}
+.ete-title {
+    font-size: 2rem;
+    margin: 0 0 2rem 2rem;
+}
+.ete-images {
+    width: 28rem;
+    height: 20rem;
+}
+.institution-photos-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.institution-images {
+    margin-bottom: 2rem;
 }

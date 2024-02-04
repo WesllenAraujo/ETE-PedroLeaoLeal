@@ -15,7 +15,7 @@ ETE - Pedro Leão Leal é uma escola técnica estadual com cursos técnicos incl
 
 | Cor               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
-| Cor background       | ![#9eb3c2](https://via.placeholder.com/10/9eb3c2?text=+) #0a192f |
+| Cor de fundo       | ![#9eb3c2](https://via.placeholder.com/10/9eb3c2?text=+) #0a192f |
 | Cor cabeçalho       | ![#191d32](https://via.placeholder.com/10/191d32?text=+) #191d32 |
 | Cor logo       | ![#b7c0ee](https://via.placeholder.com/10/b7c0ee?text=+) #b7c0ee |
 | Cor texto       | ![#191d32](https://via.placeholder.com/10/191d32?text=+) #00d1a0 |
@@ -26,20 +26,23 @@ ETE - Pedro Leão Leal é uma escola técnica estadual com cursos técnicos incl
 
 ## Melhorias
 
-#### Update 1.0 (01/02/2023):
+#### Versão 1.0 (01/02/2023):
  Adicionado página inicial, cabeçalho e suas interações, e botão "Up".
 
-#### Update 1.1 (01/02/2023):
+#### Versão 1.1 (01/02/2023):
 Adicionado arquivo README.md.
 
-#### Update 1.2 (02/02/2023):
+#### Versão 1.2 (02/02/2023):
 Adicionado carousel de imagens no index.html.
 
-#### Update 1.3 (03/02/2023):
+#### Versão 1.3 (03/02/2023):
 Adicionado descrição da ETE, imagens da ETE, rodapé, link das notas escolares.
 
-#### Update 1.4 (04/02/2023):
+#### Versão 1.4 (04/02/2023):
 Adicionado página de eventos com evento da semana da inclusão social, e ajustado o rodapé da página index.
+
+#### Versão 1.5 (04/02/2023):
+Melhoria de texto alternativo das imagens do carousel da Inclusão Social na página de eventos, melhoria README.md.
 
 <hr>
 

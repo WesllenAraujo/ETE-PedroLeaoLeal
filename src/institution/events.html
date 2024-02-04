@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - ETE Pedro Leão Leal</title>
+    <link rel="icon" type="image/png" href="../images/ETE-logo.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="up-button-content">
+        <button class="up-button"><a href="#header" class="up-button-anchor"><img src="../images/icons/arrow-up.png" alt="Flecha apontando para cima" class="up-button-image"></a></button>
+    </div>
+    <header id="header">
+        <div class="logo-content">
+            <a href="../../index.html" class="anchor-title">
+                <img src="../images/ETE-logo.png" alt="Logo da ETE Pedro Leão Leal" class="ete-anchor-image">
+                <h1>ETE - Pedro Leão Leal</h1>
+            </a>
+        </div>
+        <nav class="primary-menu-content">
+            <button class="primary-menu-button">Instituição <img src="../images//icons/arrow.png" alt="Flecha" class="menu-arrow"></button>
+            <button class="primary-menu-button">Cursos <img src="../images/icons/arrow.png" alt="Flecha" class="menu-arrow"></button>
+            <button class="primary-menu-button">Acadêmico <img src="../images/icons/arrow.png" alt="Flecha" class="menu-arrow"></button>
+            <nav class="contact-content">
+                <a href="tel:+558738842928" class="contact-item"><img src="../images/icons/phone-icon.png" alt="Icone de telefone" class="contact-icon"> +55 (89) 3884-2928</a>
+                <a href="mailto:etebelmonte@gmail.com" class="contact-item"><img src="../images/icons/mail-icon.png" alt="Icone de email" class="contact-icon"> Email</a>
+            </nav>
+        </nav>
+        <nav class="subMenu institutionSubMenu">
+            <div class="MenuRow">
+                <a href="./events.html" class="subMenuItem">Eventos</a>
+                <a href="#" class="subMenuItem">Projetos</a>
+                <a href="#" class="subMenuItem">Formandos</a>
+            </div>
+            <div class="MenuRow">
+                <a href="#" class="subMenuItem">Conquistas</a>
+                <a href="#" class="subMenuItem">Docentes</a>
+                <a href="#" class="subMenuItem">Laboratórios</a>
+            </div>
+        </nav>
+        <nav class="subMenu courseSubMenu">
+            <div class="MenuColumn">
+                <a href="#" class="subMenuItem">Técnico em Administração - Ensino Médio(Integral)</a>
+                <a href="#" class="subMenuItem">Técnico em Redes de Computadores - Ensino Médio(Integral)</a>
+                <a href="#" class="subMenuItem">Técnico em Segurança no Trabalho - Subsequente(Presencial)</a>
+            </div>
+            <div class="MenuColumn">
+                <a href="#" class="subMenuItem">Técnico em Administração - Subsequente(EaD)</a>
+                <a href="#" class="subMenuItem">Técnico em Enfermagem - Subsequente(Presencial)</a>
+                <a href="#" class="subMenuItem">Técnico em Desenvolvimento de Sistemas - Subsequente(EaD)</a>
+            </div>
+        </nav>
+        <nav class="subMenu academicSubMenu">
+            <a href="#" class="subMenuItem">Ingresso na instituição</a>
+            <a href="#" class="subMenuItem">Instituição no SEIP</a>
+            <a href="https://www.siepe.educacao.pe.gov.br/" class="subMenuItem" target="_blank">Boletim escolar online - SIEPE</a>
+        </nav>
+    </header>
+    <section class="event inclusion-event">
+        <div class="voting-content">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSei3mUx5NnoF3nD54gDQC3wldZ28Vextv8qiiy8r_Y1v2_IQw/viewform?embedded=true" width="600" height="350" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+            <div class="graphic-content">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+        <div class="inclusion-carousels-row">
+            <div class="inclusion-carousel">
+                <input type="radio" name="inclusion-slide-radio" id="inclusion-image-input1" checked class="inclusion-slider-input">
+                <input type="radio" name="inclusion-slide-radio" id="inclusion-image-input2" class="inclusion-slider-input">
+                <input type="radio" name="inclusion-slide-radio" id="inclusion-image-input3" class="inclusion-slider-input">
+                <input type="radio" name="inclusion-slide-radio" id="inclusion-image-input4" class="inclusion-slider-input">
+                <input type="radio" name="inclusion-slide-radio" id="inclusion-image-input5" class="inclusion-slider-input">
+                <input type="radio" name="inclusion-slide-radio" id="inclusion-image-input6" class="inclusion-slider-input">
+                <div class="inclusion-slides">
+                    <div class="inclusion-slide">
+                        <img src="../images/inclusion-slide-images/inclusion-slider-image01.png" alt="Slide 1">
+                    </div>
+                    <div class="inclusion-slide">
+                        <img src="../images/inclusion-slide-images/inclusion-slider-image02.png" alt="Slide 2">
+                    </div>
+                    <div class="inclusion-slide">
+                        <img src="../images/inclusion-slide-images/inclusion-slider-image03.png" alt="Slide 3">
+                    </div>
+                    <div class="inclusion-slide">
+                        <img src="../images/inclusion-slide-images/inclusion-slider-image04.png" alt="Slide 4">
+                    </div>
+                    <div class="inclusion-slide">
+                        <img src="../images/inclusion-slide-images/inclusion-slider-image05.png" alt="Slide 5">
+                    </div>
+                    <div class="inclusion-slide">
+                        <img src="../images/inclusion-slide-images/inclusion-slider-image06.png" alt="Slide 6">
+                    </div>
+                </div>
+                <div class="inclusion-navigation">
+                  <label for="inclusion-image-input1"></label>
+                  <label for="inclusion-image-input2"></label>
+                  <label for="inclusion-image-input3"></label>
+                  <label for="inclusion-image-input4"></label>
+                  <label for="inclusion-image-input5"></label>
+                  <label for="inclusion-image-input6"></label>
+                </div>
+            </div>
+            <div class="inclusion-carousel video-carousel">
+                <input type="radio" name="inclusion-video-slide" id="inclusion-video-input1" checked class="inclusion-slider-input">
+                <input type="radio" name="inclusion-video-slide" id="inclusion-video-input2" class="inclusion-slider-input">
+                <input type="radio" name="inclusion-video-slide" id="inclusion-video-input3" class="inclusion-slider-input">
+                <input type="radio" name="inclusion-video-slide" id="inclusion-video-input4" class="inclusion-slider-input">
+                <input type="radio" name="inclusion-video-slide" id="inclusion-video-input5" class="inclusion-slider-input">
+                <div class="inclusion-slides">
+                  <div class="inclusion-slide">
+                    <video src="../video/inclusion-slide-video/inclusion-slide-video01.mp4" controls class="inclusion-slide-video"></video>
+                  </div>
+                  <div class="inclusion-slide">
+                    <video src="../video/inclusion-slide-video/inclusion-slide-video02.mp4" controls class="inclusion-slide-video"></video>
+                  </div>
+                  <div class="inclusion-slide">
+                    <video src="../video/inclusion-slide-video/inclusion-slide-video03.mp4" controls class="inclusion-slide-video"></video>
+                  </div>
+                  <div class="inclusion-slide">
+                    <video src="../video/inclusion-slide-video/inclusion-slide-video04.mp4" controls class="inclusion-slide-video"></video>
+                  </div>
+                  <div class="inclusion-slide">
+                    <video src="../video/inclusion-slide-video/inclusion-slide-video05.mp4" controls class="inclusion-slide-video"></video>
+                  </div>
+                </div>
+                <div class="inclusion-navigation">
+                  <label for="inclusion-video-input1"></label>
+                  <label for="inclusion-video-input2"></label>
+                  <label for="inclusion-video-input3"></label>
+                  <label for="inclusion-video-input4"></label>
+                  <label for="inclusion-video-input5"></label>
+                </div>
+              </div>
+        </div>
+    </section>
+    <script src="../js/main.js"></script>
+    <script src="../js/pie-graphic.js"></script>
+</body>
+</html>

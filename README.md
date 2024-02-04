@@ -44,6 +44,9 @@ Adicionado página de eventos com evento da semana da inclusão social, e ajusta
 #### Versão 1.5 (04/02/2023):
 Melhoria de texto alternativo das imagens do carousel da Inclusão Social na página de eventos, melhoria README.md.
 
+#### Versão 1.6 (04/02/2023):
+Melhoria README.md.
+
 <hr>
 
 ## Tecnologias

@@ -58,6 +58,8 @@ Melhoria de texto alternativo das imagens do carousel da Inclusão Social na pá
 
   ![Git Badge](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
+  ![NPM Badge](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+
 <hr>
 
 ## Autores

@@ -38,6 +38,9 @@ Adicionado carousel de imagens no index.html.
 #### Update 1.3 (03/02/2023):
 Adicionado descrição da ETE, imagens da ETE, rodapé, link das notas escolares.
 
+#### Update 1.4 (04/02/2023):
+Adicionado página de eventos com evento da semana da inclusão social, e ajustado o rodapé da página index.
+
 <hr>
 
 ## Tecnologias

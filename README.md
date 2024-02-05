@@ -47,6 +47,9 @@ Melhoria de texto alternativo das imagens do carousel da Inclusão Social na pá
 #### Versão 1.6 (04/02/2023):
 Melhoria README.md.
 
+#### Versão 1.7 (05/02/2023):
+Melhoria texto alternativo das imagens do carousel da página index, adicionado carousel do dia 7 de setembro, carnaval e Segunda Feira de Práticas Exitosas na página de eventos, melhoria README.md.
+
 <hr>
 
 ## Tecnologias

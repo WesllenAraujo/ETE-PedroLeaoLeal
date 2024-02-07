@@ -56,6 +56,9 @@ Adicionado página de conquistas da ETE, atualização README.md.
 #### Versão 1.9 (06/02/2023):
 Atualização README.md.
 
+#### Versão 2.0 (07/02/2023):
+Adicionado borda em alguns carousel, página de projetos, página de formados, link da instituição no SEIP, atualização README.md.
+
 <hr>
 
 ## Tecnologias

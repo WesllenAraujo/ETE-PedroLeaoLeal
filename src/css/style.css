@@ -13,6 +13,10 @@ body {
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    margin-bottom: 2rem;
+}
+footer {
+    margin-bottom: 0;
 }
 .anchor-title {
     color: #b7c0ee;
@@ -243,6 +247,7 @@ body {
 .ete-description-image {
     width: 35rem;
     height: 20rem;
+    border-radius: 20px;
 }
 .ete-description-text {
     font-size: 2rem;
@@ -305,6 +310,7 @@ body {
 .inclusion-slide img {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
     object-fit: cover;
 }
 .inclusion-navigation {
@@ -507,10 +513,61 @@ body {
 }
 .result-image {
     width: 17rem;
+    border-radius: 20px;
 }
 .results-group-image {
     display: flex;
     justify-content: space-around;
     row-gap: 1.5rem;
     flex-wrap: wrap;
+}
+/* Projects style */
+.project {
+    padding: 1rem;
+}
+.math-genius-icon {
+    width: 30%;
+}
+.math-genius-content-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.math-genius-content-column {
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.math-genius-descript {
+    font-size: 2rem;
+    width: 100%;
+}
+.math-genius-button {
+    background-color: #191d32;
+    color: #b7c0ee;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 30rem;
+    border-radius: 20rem;
+    transition: .5s ease-in-out;
+}
+.math-genius-button:hover {
+    background-color: #090b13;
+    color: #7a81a6;
+}
+/* formeds students style */
+.formeds-students-image {
+    width: 70%;
+    height: 30rem;
+    border-radius: 20px;
+}
+.formeds-image-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
 }

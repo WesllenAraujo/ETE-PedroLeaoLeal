@@ -50,6 +50,12 @@ Melhoria README.md.
 #### Versão 1.7 (05/02/2023):
 Melhoria texto alternativo das imagens do carousel da página index, adicionado carousel do dia 7 de setembro, carnaval e Segunda Feira de Práticas Exitosas na página de eventos, melhoria README.md.
 
+#### Versão 1.8 (06/02/2023):
+Adicionado página de conquistas da ETE, atualização README.md.
+
+#### Versão 1.9 (06/02/2023):
+Atualização README.md.
+
 <hr>
 
 ## Tecnologias

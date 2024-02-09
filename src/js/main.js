@@ -1,5 +1,5 @@
 let primaryMenuButton = document.querySelectorAll(".primary-menu-button");
-let secundaryMenu = document.querySelectorAll(".subMenu");
+let secundaryMenu = document.querySelectorAll(".sub-menu");
 let menuButtonArrow = document.querySelectorAll(".menu-arrow");
 for (let i = 0; i < secundaryMenu.length; i++) {
     secundaryMenu[i].style.display = "none";

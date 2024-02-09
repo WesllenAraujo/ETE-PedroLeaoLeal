@@ -1,0 +1,128 @@
+@media (max-width:1500px) {
+    .up-button-content {
+        margin: 50% 0 0 85%;  
+    } 
+}
+@media (max-width:1355px) {
+    .up-button-content {
+        margin: 55% 0 0 85%;
+    }
+}
+@media (max-width:1270px) {
+    .up-button-content {
+        margin: 60% 0 0 85%;
+    }
+}
+@media (max-width:1200px) {
+    .up-button-content {
+        margin: 60% 0 0 85%;
+    }
+}
+@media (max-width:1110px) {
+    .up-button-content {
+        margin: 70% 0 0 85%;
+    }
+}
+@media (max-width:1050px) {
+    .up-button-content {
+        margin: 40rem 0 0 90%;
+    }
+    .slider {
+        width: 950px;
+    }
+    .manual-navigation {
+        width: 100%;
+    }
+    .navigation-auto {
+        width: 100%;
+    }
+    .ete-description-text {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+    .ete-description-image {
+        width: 50rem;
+        height: 30rem;
+    }
+}
+@media(max-width:1040px) {
+    .up-button-content {
+        margin-left: 85%;
+    }
+}
+@media (max-width:700px) {
+    body {
+        overflow-x: hidden;
+    }
+    .slider {
+        width: 100%;
+        height: 400px;
+    }
+    .slides {
+        height: 400px;
+    }
+    .manual-navigation {
+        width: 100%;
+    }
+    .navigation-auto {
+        width: 100%;
+        margin-top: 360px;
+    }
+    .up-button-content {
+        margin: 50rem 0 0 80%;
+    }
+}
+@media (max-width: 450px) {
+    .up-button-content {
+        margin: 46rem 0 0 18rem;
+    }
+    .slider {
+        height: 280px;
+    }
+    .manual-navigation {
+        margin-top: -150px;
+    }
+    .navigation-auto {
+        margin-top: 250px;
+    }
+    .ete-description-image {
+        width: 100%;
+        height: 15rem;
+    }
+    .anchor-title {
+        flex-direction: column;
+    }
+    .primary-menu-content {
+        gap: .5rem;
+        font-size: 1rem;
+    }
+    .contact-content {
+        justify-content: center;
+    }
+    .sub-menu-item {
+        font-size: 1rem;
+    }
+    .ete-description-text {
+        width: 90%;
+    }
+    .footer-anchor {
+        width: 100%;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .footer-contact-content {
+        margin-top: 1rem;
+        justify-content: center;
+    }
+}
+@media (max-width:400px) {
+    .up-button-content {
+        margin: 40rem 0 0 16rem;
+    }
+}
+@media (max-width: 370px) {
+    .anchor-title {
+        font-size: 1.8rem;
+    }
+}

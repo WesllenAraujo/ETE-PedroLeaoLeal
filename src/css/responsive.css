@@ -1,29 +1,29 @@
-@media (max-width:1500px) {
+@media(max-width:1500px) {
     .up-button-content {
         margin: 50% 0 0 85%;  
     } 
 }
-@media (max-width:1355px) {
+@media(max-width:1355px) {
     .up-button-content {
         margin: 55% 0 0 85%;
     }
 }
-@media (max-width:1270px) {
+@media(max-width:1270px) {
     .up-button-content {
         margin: 60% 0 0 85%;
     }
 }
-@media (max-width:1200px) {
+@media(max-width:1200px) {
     .up-button-content {
         margin: 60% 0 0 85%;
     }
 }
-@media (max-width:1110px) {
+@media(max-width:1110px) {
     .up-button-content {
         margin: 70% 0 0 85%;
     }
 }
-@media (max-width:1050px) {
+@media(max-width:1050px) {
     .up-button-content {
         margin: 40rem 0 0 90%;
     }
@@ -50,9 +50,22 @@
         margin-left: 85%;
     }
 }
-@media (max-width:700px) {
+@media(max-width:900px) {
+    .voting-content {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .graphic-content {
+        width: 70%;
+        height: 30rem;
+    }
+}
+@media(max-width:700px) {
     body {
         overflow-x: hidden;
+    }
+    .primary-menu-content {
+        gap: 1rem;
     }
     .slider {
         width: 100%;
@@ -71,8 +84,24 @@
     .up-button-content {
         margin: 50rem 0 0 80%;
     }
+    /* event style */
+    .ete-title {
+        margin: 0 0 2rem .5rem;
+    }
+    .voting-content {
+        gap: 1rem;
+    }
+    .inclusion-carousels-row {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
 }
-@media (max-width: 450px) {
+@media(max-width:550px) {
+    .graphic-content {
+        width: 100%;
+    }
+}
+@media(max-width: 450px) {
     .up-button-content {
         margin: 46rem 0 0 18rem;
     }
@@ -115,13 +144,17 @@
         margin-top: 1rem;
         justify-content: center;
     }
+    /* event style */
+    .graphic-content {
+        width: 100%;
+    }
 }
-@media (max-width:400px) {
+@media(max-width:400px) {
     .up-button-content {
         margin: 40rem 0 0 16rem;
     }
 }
-@media (max-width: 370px) {
+@media(max-width: 370px) {
     .anchor-title {
         font-size: 1.8rem;
     }

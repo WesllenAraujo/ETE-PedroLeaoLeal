@@ -59,8 +59,11 @@ Atualização README.md.
 #### Versão 2.0 (07/02/2023):
 Adicionado borda em alguns carousel, página de projetos, página de formados, link da instituição no SEIP, atualização README.md.
 
-#### Versão 2.0 (07/02/2023):
+#### Versão 2.1 (08/02/2023):
 Adicionado primeira versão da responsividade na página principal(index), ajustes no HTML e CSS. Atualização README.md.
+
+#### Versão 2.2 (09/02/2023):
+Adicionado primeira versão da responsividade na página de eventos. Ajustes no HTML da página de eventos. Ajustes no style.css.. Atualização README.md.
 
 <hr>
 

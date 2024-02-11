@@ -84,7 +84,6 @@
     .up-button-content {
         margin: 50rem 0 0 80%;
     }
-    /* event style */
     .ete-title {
         margin: 0 0 2rem .5rem;
     }
@@ -94,6 +93,15 @@
     .inclusion-carousels-row {
         flex-wrap: wrap;
         gap: 2rem;
+    }
+    .project {
+        padding: .5rem;
+    }
+    .math-genius-icon {
+        width: 40%;
+    }
+    .formeds-students-image {
+        height: 20rem;
     }
 }
 @media(max-width:550px) {
@@ -137,6 +145,12 @@
     .footer-anchor {
         width: 100%;
     }
+    .contact-content {
+        gap: .6rem;
+    }
+    .contact-item {
+        font-size: .8rem;
+    }
     footer {
         flex-direction: column;
     }
@@ -144,9 +158,22 @@
         margin-top: 1rem;
         justify-content: center;
     }
-    /* event style */
+    .formeds-students-image {
+        width: 95%;
+        height: 15rem;
+    }
     .graphic-content {
         width: 100%;
+    }
+    .math-genius-content-column {
+        width: 100%;
+    }
+    .math-genius-description {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .math-genius-button {
+        width: 80%;
     }
 }
 @media(max-width:400px) {
@@ -157,5 +184,8 @@
 @media(max-width: 370px) {
     .anchor-title {
         font-size: 1.8rem;
+    }
+    .primary-menu-content {
+        gap: .2rem;
     }
 }

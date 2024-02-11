@@ -65,6 +65,9 @@ Adicionado primeira versão da responsividade na página principal(index), ajust
 #### Versão 2.2 (09/02/2023):
 Adicionado primeira versão da responsividade na página de eventos. Ajustes no HTML da página de eventos. Ajustes no style.css.. Atualização README.md.
 
+#### Versão 2.3 (11/02/2023):
+Adicionado primeira versão da responsividade na página de conquistas, formados e projetos. Adicionado link do Instagram da ETE no menu de contato. Atualização README.md.
+
 <hr>
 
 ## Tecnologias

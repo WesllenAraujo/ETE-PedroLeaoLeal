@@ -18,8 +18,8 @@ ETE - Pedro Leão Leal é uma escola técnica estadual com cursos técnicos incl
 | Cor de fundo       | ![#9eb3c2](https://via.placeholder.com/10/9eb3c2?text=+) #0a192f |
 | Cor cabeçalho       | ![#191d32](https://via.placeholder.com/10/191d32?text=+) #191d32 |
 | Cor logo       | ![#b7c0ee](https://via.placeholder.com/10/b7c0ee?text=+) #b7c0ee |
-| Cor texto       | ![#191d32](https://via.placeholder.com/10/191d32?text=+) #00d1a0 |
-| Cor secundária       | ![#282f44](https://via.placeholder.com/10/282f44?text=+) #00d1a0 |
+| Cor texto       | ![#191d32](https://via.placeholder.com/10/191d32?text=+) #191d32 |
+| Cor secundária       | ![#282f44](https://via.placeholder.com/10/282f44?text=+) #282f44 |
 | Cor terciária       | ![#453a49](https://via.placeholder.com/10/453a49?text=+) #453a49 |
 
 <hr>
@@ -70,6 +70,10 @@ Adicionado primeira versão da responsividade na página de conquistas, formados
 
 #### Versão 2.4 (17/02/2024):
 Criado variáveis de cores no style.css. Corrigido ano de versões. Atualização README.md.
+
+#### Versão 2.5 (17/02/2024):
+Atualização README.md.
+
 <hr>
 
 ## Tecnologias

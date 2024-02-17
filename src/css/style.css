@@ -2,6 +2,13 @@
 * {
     scroll-behavior: smooth;
 }
+:root {
+    --cor-principal: #191d32;
+    --cor-secundaria: #282f44;
+    --cor-terciaria: #453a49;
+    --cor-quartenaria: #9eb3c2;
+    --cor-quinalia: #b7c0ee;
+}
 body {
     color: #191d32;
     background-color: #9eb3c2;
@@ -9,8 +16,8 @@ body {
     overflow-x: hidden;
 }
 #header, footer {
-    background-color: #191d32;
-    color: #9eb3c2;
+    background-color: var(--cor-principal);
+    color: var(--cor-quartenaria);
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -20,7 +27,7 @@ footer {
     margin-bottom: 0;
 }
 .anchor-title {
-    color: #b7c0ee;
+    color: var(--cor-quinalia);
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -113,7 +120,7 @@ footer {
     z-index: 999;
 }
 .up-button {
-    background-color: #191d32;
+    background-color: var(--cor-principal);
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
@@ -191,7 +198,7 @@ footer {
     margin-left: -75%;
 }
 .navigation-auto div {
-    border: 3px solid #191d32;
+    border: 3px solid var(--cor-principal);
     padding: 8px;
     border-radius: 10px;
     cursor: pointer;
@@ -222,13 +229,13 @@ footer {
 .left-brown-bar {
     width: 70%;
     height: 1rem;
-    background-color: #453A49;
+    background-color: var(--cor-terciaria);
     margin:  2rem 0 1rem;
 }
 .left-blue-bar {
     width: 50%;
     height: 1rem;
-    background-color: #282F44;
+    background-color: var(--cor-secundaria);
     margin-bottom: 2rem;
 }
 .right-bars-content {
@@ -547,8 +554,8 @@ footer {
     width: 100%;
 }
 .math-genius-button {
-    background-color: #191d32;
-    color: #b7c0ee;
+    background-color: var(--cor-principal);
+    color: var(--cor-quinalia);
     padding: 1rem;
     font-size: 2rem;
     font-weight: 700;

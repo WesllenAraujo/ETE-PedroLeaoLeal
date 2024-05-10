@@ -112,25 +112,22 @@ footer {
 .course-sub-menu {
     flex-direction: column;
 }
-.up-button-content {
-    position: fixed;
-    display: flex;
-    justify-content: flex-end;
-    margin: 38rem 0 0 87rem;
-    z-index: 999;
-}
 .up-button {
+    position: fixed;
     background-color: var(--cor-principal);
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-}
-.up-button-anchor {
+    bottom: 40px;
+    right: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    z-index: 999;;
 }
 .up-button-image {
     width: 3rem;
+    height: 4rem;
 }
 .slide-content {
     margin: 0;

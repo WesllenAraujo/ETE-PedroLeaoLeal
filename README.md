@@ -74,6 +74,9 @@ Criado variáveis de cores no style.css. Corrigido ano de versões. Atualizaçã
 #### Versão 2.5 (17/02/2024):
 Atualização README.md.
 
+### Versão 2.6 (10/05/2024):
+Corrigindo erro de posicionamento do botão de redirecionamento para o topo do website. Atualização do README.md.
+
 <hr>
 
 ## Tecnologias
